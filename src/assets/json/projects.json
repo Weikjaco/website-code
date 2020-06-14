@@ -1,0 +1,31 @@
+[
+	{
+		"Image": [
+			"./assets/images/devtracker.png",
+			"./assets/images/devtracker-login.jpg",
+			"./assets/images/devtracker-ticket-appr.png"
+		],
+		"Title": "DevTracker",
+		"Description": "Created to help with the lifecycle and creations of tickets for iterative systems (Similar to Jira).",
+		"Stack": [ "MySQL", "Handlebars", "NodeJS", "Express" ],
+		"For": "Montana State University"
+	},
+	{
+		"Image": [ "./assets/images/post-office.png" ],
+		"Title": "Post Office",
+		"Description": "Joined into a team and added features to Montana State University's post office web-app.",
+		"Stack": [ "Linux", "Apache", "MySQL", "PHP" ],
+		"For": "Montana State University"
+	},
+	{
+		"Image": [
+			"./assets/images/refvis-uml-lvl.png",
+			"./assets/images/refvis-uml-dia.png",
+			"./assets/images/refvis-code-lvl.png"
+		],
+		"Title": "RefVis",
+		"Description": "Created to help developers visualize a complex refactoring through abstraction and UML.",
+		"Stack": [ "NodeJS", "React" ],
+		"For": "School Project"
+	}
+]

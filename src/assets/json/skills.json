@@ -1,0 +1,57 @@
+{
+	"Coding Practices": {
+		"Object-Oriented Programming": 5,
+		"Procedural Programming": 4,
+		"Functional Programming": 2,
+		"Data Structures": 4,
+		"Design Patterns": 4,
+		"Security": 3
+	},
+	"Languages": {
+		"Javascript": 4,
+		"PHP": 3,
+		"Java": 4,
+		"C": 3,
+		"HTML5": 4,
+		"CSS": 4,
+		"Git": 3,
+		"SQL": 3,
+		"React": 3,
+		"NodeJS": 3
+	},
+	"Web Development": {
+		"Javascript": 4,
+		"PHP": 4,
+		"HTML5": 4,
+		"CSS3": 4,
+		"SQL": 3,
+		"React": 3,
+		"NodeJS": 3,
+		"SEO": 2,
+		"Security": 4,
+		"Accessibility": 3,
+		"UX/UI Design": 4
+	},
+	"Editors / IDE's": {
+		"Visual Studio Code": 4,
+		"VIM": 3,
+		"Anaconda": 3
+	},
+	"Methodologies": {
+		"Scrum-Agile Methodology": 3,
+		"DevOps": 1,
+		"Waterfall": 3,
+		"Iterative": 3
+	},
+	"Relavent Programs": {
+		"Microsoft Office": 5,
+		"Wireshark": 3,
+		"Jira": 3,
+		"VMWare": 3,
+		"Slack": 5
+	},
+	"Terminals": {
+		"Windows Powershell": 3,
+		"Linux Bash": 4
+	}
+}
