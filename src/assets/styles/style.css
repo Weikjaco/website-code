@@ -78,7 +78,6 @@ header > div > a:hover {
 
 .project-card {
 	background-color: #0000006b;
-	margin-left: 3.9em;
 	max-height: 25em;
 	min-width: 15em;
 }
@@ -236,8 +235,8 @@ header > div > a:hover {
 
 	#intro-aboutme {
 		font-size: 10px;
-		top: 26vh;
-		left: 13vh;
+		top: 31vh;
+		left: 6vh;
 	}
 
 	#intro-aboutme-description {
@@ -251,37 +250,6 @@ header > div > a:hover {
 	}
 }
 
-/* Small devices */
-/* @media only screen and (min-width: 0px) {
-	.modal-content {
-		width: 100%;
-	}
-
-	header {
-		background-image: url('../images/nz-me-sm.jpg');
-	}
-
-	#navigation {
-		background-color: #00212c !important;
-	}
-
-	#intro-aboutme {
-		font-size: 10px;
-		top: 16.5em;
-		left: 6.1em;
-	}
-
-	#intro-aboutme-description {
-		width: 150px;
-	}
-
-	#intro-stats {
-		top: 80vh;
-		left: 3vw;
-		font-size: 8px;
-	}
-} */
-
 /* Medium devices */
 @media only screen and (min-width: 688px) {
 	#intro-stats {
@@ -292,8 +260,8 @@ header > div > a:hover {
 
 	#intro-aboutme {
 		font-size: 16px;
-		top: 22em;
-		left: 16em;
+		top: 28em;
+		left: 5.5em;
 	}
 
 	#intro-aboutme-description {
@@ -324,8 +292,8 @@ header > div > a:hover {
 	}
 
 	#intro-aboutme {
-		top: 15.3em;
-		left: 44em;
+		top: 14.5em;
+		left: 52em;
 	}
 }
 

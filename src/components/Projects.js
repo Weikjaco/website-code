@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import projectList from '../assets/json/projects.json';
 import Footer from './sub-components/Footer';
-import Modal from './helper-components/Modal';
 import { Carousel } from 'react-bootstrap';
 
 require('../assets/styles/style.css');
@@ -81,7 +80,7 @@ const ProjectCard = (props) => {
 						}}
 						className="mb-5 project-img"
 					/>
-					<Modal />
+					{/* <Modal /> */}
 				</React.Fragment>
 			)}
 			<p className="mb-3 small">
@@ -97,7 +96,7 @@ const Projects = () => {
 	return (
 		<React.Fragment>
 			<section id="projects" className="container-fluid text-light pt-5 section-bg-reverse">
-				<h1 className="pt-5 text-light text-center">Projects</h1>
+				<h1 className="pt-3 text-light text-center">Projects</h1>
 				<div className="d-flex flex-wrap justify-content-around">
 					{projectList.map((project, index) => {
 						return (

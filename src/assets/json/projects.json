@@ -1,9 +1,9 @@
 [
 	{
 		"Image": [
-			"./assets/images/devtracker.png",
-			"./assets/images/devtracker-login.jpg",
-			"./assets/images/devtracker-ticket-appr.png"
+			"./assets/images/devtracker.webp",
+			"./assets/images/devtracker-login.webp",
+			"./assets/images/devtracker-ticket-appr.jpg"
 		],
 		"Title": "DevTracker",
 		"Description": "Created to help with the lifecycle and creations of tickets for iterative systems (Similar to Jira).",
@@ -11,7 +11,7 @@
 		"For": "Montana State University"
 	},
 	{
-		"Image": [ "./assets/images/post-office.png" ],
+		"Image": [ "./assets/images/post-office.jpg" ],
 		"Title": "Post Office",
 		"Description": "Joined into a team and added features to Montana State University's post office web-app.",
 		"Stack": [ "Linux", "Apache", "MySQL", "PHP" ],
@@ -19,9 +19,9 @@
 	},
 	{
 		"Image": [
-			"./assets/images/refvis-uml-lvl.png",
-			"./assets/images/refvis-uml-dia.png",
-			"./assets/images/refvis-code-lvl.png"
+			"./assets/images/refvis-uml-lvl.jpg",
+			"./assets/images/refvis-uml-dia.jpg",
+			"./assets/images/refvis-code-lvl.jpg"
 		],
 		"Title": "RefVis",
 		"Description": "Created to help developers visualize a complex refactoring through abstraction and UML.",
