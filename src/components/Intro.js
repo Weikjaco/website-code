@@ -15,7 +15,7 @@ const Intro = () => {
 			<div className="position-relative">
 				<div id="intro-aboutme" className="position-absolute">
 					<span onClick={expand}>
-						<u>Read about me</u>
+						<u>Read about me test</u>
 					</span>
 					{aboutMe ? (
 						<div id="intro-aboutme-description">
