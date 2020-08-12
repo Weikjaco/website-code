@@ -16,25 +16,25 @@ const SkillEntity = (props) => {
 	while (count < numStars) {
 		count < numStars - rating
 			? stars.push(
-					<img
-						src="./assets/images/silver-star.png"
-						alt="Silver Star"
-						key={count}
-						height={height}
-						width={width}
-						style={{ paddingRight: paddingRight + 'px' }}
-					/>
-				)
+				<img
+					src="./assets/images/silver-star.png"
+					alt="Silver Star"
+					key={count}
+					height={height}
+					width={width}
+					style={{ paddingRight: paddingRight + 'px' }}
+				/>
+			)
 			: stars.push(
-					<img
-						src="./assets/images/yellow-star.svg"
-						alt="Gold Star"
-						key={count}
-						height={height}
-						width={width}
-						style={{ paddingRight: paddingRight + 'px' }}
-					/>
-				);
+				<img
+					src="./assets/images/yellow-star.svg"
+					alt="Gold Star"
+					key={count}
+					height={height}
+					width={width}
+					style={{ paddingRight: paddingRight + 'px' }}
+				/>
+			);
 		count++;
 		paddingRight = count * 18;
 		width += 18;
@@ -64,7 +64,7 @@ const CarouselFrame = (props) => {
 	return (
 		<Carousel.Item className={`${active}`} style={{ minHeight: '210px' }}>
 			<div className="d-flex justify-content-center flex-wrap pt-5 mt-1" style={{ minHeight: '192px' }}>
-				{Object.entries(skills).map(([ subTitle, rating ]) => {
+				{Object.entries(skills).map(([subTitle, rating]) => {
 					return <SkillEntity key={subTitle} subTitle={subTitle} rating={rating} />;
 				})}
 			</div>
@@ -76,7 +76,7 @@ const CarouselFrame = (props) => {
 };
 
 const Skills = () => {
-	const [ index, setIndex ] = useState(0);
+	const [index, setIndex] = useState(0);
 
 	const handleSelect = (selectedIndex, e) => {
 		setIndex(selectedIndex);
@@ -98,7 +98,7 @@ const Skills = () => {
 				onSelect={handleSelect}
 				interval={null}
 			>
-				{frames.map(([ title, skills ]) => {
+				{frames.map(([title, skills]) => {
 					return <CarouselFrame key={title} title={title} skills={skills} />;
 				})}
 			</Carousel>

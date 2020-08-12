@@ -64,7 +64,7 @@ const Experience = () => {
 								number="0"
 								title="Computer Science"
 								caption="GPA 3.78 / 4.00"
-								image={`${imageLocation}/coming-soon.jpg`}
+								image={`${imageLocation}/cs-diploma.jpg`}
 							/>
 							<Certificate
 								number="1"

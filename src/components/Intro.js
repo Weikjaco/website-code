@@ -3,14 +3,20 @@ import Navigation from './sub-components/Navigation';
 require('../assets/styles/style.css');
 
 const Intro = () => {
-	const [ aboutMe, setAboutMe ] = useState(false);
+	const [aboutMe, setAboutMe] = useState(false);
 
 	const expand = () => {
 		aboutMe ? setAboutMe(false) : setAboutMe(true);
 	};
 
+	const customStyle = {
+		header: {
+			minHeight: '100vh'
+		}
+	}
+
 	return (
-		<header id="intro" className="container-fluid text-light" style={{ minHeight: '100vh' }}>
+		<header id="intro" className="container-fluid text-light" style={customStyle.header}>
 			<Navigation />
 			<div className="position-relative">
 				<div id="intro-aboutme" className="position-absolute">
@@ -21,8 +27,8 @@ const Intro = () => {
 						<div id="intro-aboutme-description">
 							<p>
 								With an eye for detail and a bachelor's in Computer Science, I can create amazing
-								displays with scalable access to data. Matching who I am to a career has been my most
-								significant achievement yet, and I am now thriving to become a professional fullstack
+								displays with scalable access to data. Matching who I am to a career has been a
+								significant achievement, and I am now thriving to become a professional fullstack
 								engineer with an emphasis on frontend development.
 							</p>
 						</div>
